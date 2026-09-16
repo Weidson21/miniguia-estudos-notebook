@@ -99,6 +99,147 @@ Os experimentos mostraram que a qualidade do resultado depende não apenas das f
 
 Entre os principais pontos observados estão:
 
+## Mini Guia de Estudos
+
+O mapa de aprendizagem produzido durante os experimentos foi organizado em cinco etapas progressivas.
+
+### 1. Fundamentos de Python
+
+Antes de trabalhar diretamente com dados, é importante compreender os fundamentos da linguagem Python.
+
+**Conceitos essenciais:**
+
+* sintaxe básica;
+* números e strings;
+* listas, tuplas e dicionários;
+* estruturas condicionais (`if`);
+* estruturas de repetição (`for`);
+* funções.
+
+**Objetivo da etapa:** desenvolver uma base de programação suficiente para compreender e manipular dados utilizando Python.
+
+---
+
+### 2. Estruturas de dados com pandas
+
+O pandas fornece estruturas específicas para trabalhar com dados tabulares.
+
+**Conceitos essenciais:**
+
+* finalidade da biblioteca pandas;
+* `Series`;
+* `DataFrame`;
+* índices e colunas;
+* leitura e escrita de arquivos;
+* importação de dados em formatos como CSV.
+
+**Objetivo da etapa:** compreender como os dados são representados e organizados dentro do pandas.
+
+---
+
+### 3. Exploração e compreensão dos dados
+
+Depois de carregar os dados, é necessário compreender sua estrutura e suas características.
+
+**Conceitos essenciais:**
+
+* `head()` e `tail()`;
+* `index` e `columns`;
+* `dtypes`;
+* `describe()`;
+* seleção de dados;
+* `.loc[]` e `.iloc[]`;
+* filtragem utilizando condições.
+
+**Objetivo da etapa:** identificar a estrutura dos dados e selecionar as informações relevantes para a análise.
+
+---
+
+### 4. Limpeza e transformação dos dados
+
+Dados reais podem apresentar valores ausentes, inconsistências e diferentes formatos.
+
+**Conceitos essenciais:**
+
+* identificação de valores ausentes;
+* `isna()`;
+* `dropna()`;
+* `fillna()`;
+* criação e transformação de colunas;
+* manipulação de textos;
+* tipos categóricos.
+
+**Objetivo da etapa:** preparar os dados para que possam ser analisados de maneira adequada.
+
+---
+
+### 5. Análise e interpretação dos dados
+
+Com os dados explorados e preparados, é possível realizar análises para encontrar informações relevantes.
+
+**Conceitos essenciais:**
+
+* `groupby()`;
+* agregações;
+* contagem e comparação entre grupos;
+* `merge()`;
+* `concat()`;
+* `pivot_table()`;
+* visualização dos dados.
+
+**Objetivo da etapa:** transformar os dados preparados em informações que possam ser interpretadas e utilizadas na análise.
+
+---
+
+## Glossário
+
+| Termo       | Definição                                                                                    |
+| ----------- | -------------------------------------------------------------------------------------------- |
+| Python      | Linguagem de programação utilizada no projeto para manipulação e análise de dados.           |
+| pandas      | Biblioteca Python voltada para estruturas e operações de manipulação de dados.               |
+| Series      | Estrutura unidimensional do pandas.                                                          |
+| DataFrame   | Estrutura bidimensional composta por linhas e colunas.                                       |
+| Índice      | Identificador utilizado para os elementos de uma estrutura de dados.                         |
+| dtype       | Tipo de dado armazenado em uma estrutura ou coluna.                                          |
+| NaN         | Representação utilizada para valores ausentes em determinados contextos.                     |
+| groupby     | Recurso utilizado para dividir dados em grupos e realizar operações sobre eles.              |
+| merge       | Operação utilizada para combinar dados de diferentes tabelas utilizando chaves relacionadas. |
+| pivot_table | Recurso utilizado para reorganizar e resumir dados por meio de agrupamentos e agregações.    |
+
+---
+
+## Prompts reutilizáveis
+
+Os prompts abaixo podem ser reutilizados durante os estudos:
+
+### Explicação de um conceito
+
+> Com base exclusivamente nas fontes deste caderno, explique o conceito de [CONCEITO] para um estudante iniciante. Apresente sua definição, finalidade, relação com análise de dados e um exemplo prático. Evite recursos avançados que não sejam necessários para compreender o conceito.
+
+### Revisão
+
+> Com base exclusivamente nas fontes deste caderno, faça uma revisão de [TEMA]. Organize os principais conceitos em ordem de dificuldade e destaque quais conhecimentos são pré-requisitos para compreender os próximos.
+
+### Diagnóstico
+
+> Com base exclusivamente nas fontes deste caderno, crie questões progressivas sobre [TEMA]. Não apresente as respostas inicialmente. Após minhas respostas, faça a correção, identifique minhas lacunas e indique quais conceitos devo revisar.
+
+### Aprendizagem ativa
+
+> Com base exclusivamente nas fontes deste caderno, apresente uma situação prática de análise de dados envolvendo [TEMA]. Não forneça a solução inicialmente. Aguarde minha tentativa e depois avalie meu raciocínio com base nas fontes.
+
+---
+
+## Reflexão final
+
+O desenvolvimento deste projeto mostrou que o uso de uma ferramenta de IA para estudos pode ir além da geração de resumos.
+
+A utilização de diferentes prompts permitiu organizar as fontes, construir uma sequência de aprendizagem, identificar problemas nas primeiras respostas e criar um diagnóstico inicial.
+
+O principal aprendizado foi perceber a importância de fornecer contexto, objetivo, nível de profundidade e formato esperado ao elaborar prompts.
+
+O NotebookLM foi utilizado como ferramenta de apoio ao processo de aprendizagem, enquanto a curadoria das fontes e a análise crítica dos resultados permaneceram como partes importantes do processo.
+
 * definir claramente o objetivo da solicitação;
 * indicar o nível de conhecimento esperado;
 * estabelecer limites para a profundidade da resposta;
